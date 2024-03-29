@@ -9,7 +9,9 @@ class postResource extends JsonResource
 {
 
     // define property
-    public
+    public $status;
+    public $messege;
+    public $resource;
     /**
      * Transform the resource into an array.
      *
