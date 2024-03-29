@@ -9,6 +9,7 @@ class postResource extends JsonResource
 {
 
     // define property
+    public
     /**
      * Transform the resource into an array.
      *
@@ -19,3 +20,4 @@ class postResource extends JsonResource
         return parent::toArray($request);
     }
 }
+// dsfdsf
